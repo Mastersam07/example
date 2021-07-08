@@ -1,7 +1,7 @@
 name: Client Tests
 on:
   pull_request: # calls action on pull request
-    branches: [ develop ]
+    branches: [ master ]
 
 env:
   flutter_version: "2.0.3"
